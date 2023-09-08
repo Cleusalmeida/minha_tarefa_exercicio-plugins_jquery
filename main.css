@@ -1,0 +1,73 @@
+* {
+    margin: 0;/*margem*/
+    padding: 0;/*espaçamento*/
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;/*fonte*/
+}
+
+html {
+    overflow-x: hidden; /*tira a barra de rolagem que fica embaixo (na horizontal)*/
+}
+
+.container { /*regras do container*/
+    max-width: 400px;/*largura máxima*/
+    width: 100%; /*deve ocupar 100% da largura máxima*/
+    margin: 0 auto;/*centralizado na horinzontal*/
+    background-color: #119750;
+    border-radius: 10px;
+    color: #fff;
+}
+
+section {
+    padding: 40px 0; 
+}
+
+section h2 {
+    margin-bottom: 16px; 
+    padding: 24px 24px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119750; /*cor de fundo*/
+    color: #fff; /*cor da fonte*/
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input, 
+.form-campo textarea { 
+    width: 100;
+    display: block;
+    padding: 8px;
+}
+
+form {
+    max-width: 360px; 
+    padding: 0 25px;
+    height: 500px;
+}
+
+form button {
+    max-width: 500px; 
+    padding: 8px 14px;
+    background-color: #fff;
+    color: #119750;
+}
+
+
